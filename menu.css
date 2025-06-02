@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #5C5552;
+  color: #F7F0F5;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  /* font-family: 'Roboto serif', serif; */
+}
+
+
+
+/* @font-face {
+  font-family: 'Roboto Serif';
+  src: url(RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf) format('truetype');
+} */
+
+header {
+  background-blend-mode: multiply;
+  background-color: rgb(171, 162, 162);
+  background-image: url(food.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  max-width: 100%;
+}
+
+.headline {
+  margin: 3em;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  padding-right: 2em;
+}
+
+.links li {
+  padding-left: 20px;
+}
+/* .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: ;
+} */
+
+
+
+a {
+  text-decoration: none;
+  color: #F7F0F5;
+}
+
+ul {
+  list-style: none;
+}
+
+.small-text {
+  font-size: 1.5rem;
+  margin-top: 0%;
+}
+
+#logo {
+  padding: 5px;
+  width: 13%;
+}
+
+h1 {
+  margin-bottom: 0%;
+  margin-top: 0%;
+  font-size: 3rem;
+}
+
+
+
+/* MAIN */
+
+main {
+  display: flex;
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.welcome-text h2 {
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color:#8F857D;
+  color: #231C1A;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+footer ul {
+  flex-direction: column;
+}
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #5C5552;
+  color: #F7F0F5;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  /* font-family: 'Roboto serif', serif; */
+}
+
+
+
+/* @font-face {
+  font-family: 'Roboto Serif';
+  src: url(RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf) format('truetype');
+} */
+
+header {
+  background-blend-mode: multiply;
+  background-color: rgb(171, 162, 162);
+  background-image: url(food.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  max-width: 100%;
+}
+
+.headline {
+  margin: 3em;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: ;
+} */
+
+
+
+a {
+  text-decoration: none;
+  color: #F7F0F5;
+}
+
+ul {
+  list-style: none;
+}
+
+.small-text {
+  font-size: 1.5rem;
+  margin-top: 0%;
+}
+
+#logo {
+  padding: 5px;
+  width: 13%;
+}
+
+h1 {
+  margin-bottom: 0%;
+  margin-top: 0%;
+  font-size: 3rem;
+}
+
+
+
+/* MAIN */
+
+main {
+  display: flex;
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.welcome-text h2 {
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color:#8F857D;
+  color: #231C1A;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+footer ul {
+  flex-direction: column;
+}
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #5C5552;
+  color: #F7F0F5;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  /* font-family: 'Roboto serif', serif; */
+}
+
+
+
+/* @font-face {
+  font-family: 'Roboto Serif';
+  src: url(RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf) format('truetype');
+} */
+
+header {
+  background-blend-mode: multiply;
+  background-color: rgb(171, 162, 162);
+  background-image: url(food.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  max-width: 100%;
+}
+
+.headline {
+  margin: 3em;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: ;
+} */
+
+
+
+a {
+  text-decoration: none;
+  color: #F7F0F5;
+}
+
+ul {
+  list-style: none;
+}
+
+.small-text {
+  font-size: 1.5rem;
+  margin-top: 0%;
+}
+
+#logo {
+  padding: 5px;
+  width: 13%;
+}
+
+h1 {
+  margin-bottom: 0%;
+  margin-top: 0%;
+  font-size: 3rem;
+}
+
+
+
+/* MAIN */
+
+main {
+  display: flex;
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.welcome-text h2 {
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color:#8F857D;
+  color: #231C1A;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+footer ul {
+  flex-direction: column;
+}

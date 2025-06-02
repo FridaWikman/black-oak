@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #5c5552;
+  color: #f7f0f5;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- NAVBAR --- */
+
+.home-navbar {
+  align-items: center;
+  background: rgba(35, 28, 26, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  min-height: 40px;
+}
+
+.list {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2em;
+}
+
+.links {
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+a {
+  color: #f7f0f5;
+  text-decoration: none;
+}
+
+.list a:hover {
+  text-decoration: underline;
+}
+
+/*--- HEADER --- */
+
+.home-header {
+  background-blend-mode: multiply;
+  background-color: rgb(148, 140, 140);
+  background-image: url(food.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 290px;
+}
+
+.headline {
+  align-items: flex-end;
+  margin: 3em;
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+.small-text {
+  font-size: 1.5rem;
+  margin-top: 0%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 2em;
+}
+
+.oaktree {
+  display: none;
+}
+
+/*--- MAIN ---*/
+
+.invisible-heading {
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.welcome-text {
+  background-color: #5c5552;
+  padding: 3em 30px 5em;
+}
+
+.welcome-text h2 {
+  padding-bottom: 15px;
+}
+
+.pre-text {
+  font-size: 0.9em;
+  padding-bottom: 5px;
+}
+
+.light-part {
+  align-items: center;
+  background-color: #f7f0f5;
+  color: #5c5552;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  max-width: 100vw;
+}
+
+picture {
+  background-color: #f7f0f5;
+}
+
+.light-part img {
+  display: block;
+}
+
+.intro-menu {
+  background-color: #decbb7;
+  color: #5c5552;
+  display: flex;
+  flex-direction: column;
+  padding: 3em 30px 5em;
+}
+
+.button-position {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.button-design {
+  background-color: #decbb7;
+  border: 2px solid #5c5552;
+  border-radius: 3px;
+  color: #5c5552;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 2em;
+  padding: 6px 10px;
+}
+
+.button-design:hover {
+  background-color: #5c5552;
+  color: #f7f0f5;
+}
+
+/* --- FOOTER --- */
+
+footer {
+  background-color: #8f857d;
+  color: #231c1a;
+  display: flex;
+  flex-direction: column;
+  min-height: 100px;
+  padding: 3em 30px;
+}
+
+.contact-list {
+  padding-bottom: 2em;
+}
+
+.list-padding {
+  padding-bottom: 0.5em;
+}
+
+/*--- MENY CSS ---*/
+
+/*--- NAVBAR ---*/
+
+.menu-navbar {
+  align-items: center;
+  background: rgba(35, 28, 26, 0.5);
+  display: flex;
+  min-height: 40px;
+}
+
+#left-link {
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+
+/* --- HEADER --- */
+
+.menu-header {
+  background-blend-mode: multiply;
+  background-color: rgb(169, 161, 161);
+  background-image: url(table-1200.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 290px;
+}
+
+/* --- MAIN --- */
+
+.pre-menu {
+  background-color: #5c5552;
+  padding: 3em 30px 5em;
+}
+
+.menu {
+  background-color: #decbb7;
+  color: #5c5552;
+  display: flex;
+  flex-direction: column;
+  padding: 3em 30px 3em;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2.3em;
+}
+
+.style-courses {
+  padding-top: 1.8em;
+}
+
+.style-courses h3 {
+  font-size: 1.5em;
+}
+
+.style-courses h4 {
+  font-size: 1.1em;
+  padding-top: 1.2em;
+  text-decoration: underline;
+}
+
+dt {
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+.tomato {
+  max-width: 230px;
+}
+
+.grapes-position {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.grapes {
+  display: none;
+}
+
+.allergies {
+  border: #5c555298 double;
+  margin-top: 2em;
+  padding: 1em;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  a {
+    font-size: 1.3em;
+  }
+
+  .welcome-text,
+  .pre-menu {
+    margin: auto;
+    max-width: 500px;
+  }
+
+  .light-part {
+    align-items: center;
+    background-color: #decbb7;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+  }
+
+  picture {
+    background-color: #decbb7;
+    max-width: 300px;
+    min-width: 200px;
+    padding: 1em;
+  }
+
+  .intro-menu {
+    max-width: 500px;
+  }
+
+  .menu {
+    align-items: center;
+  }
+
+  .style-courses {
+    max-width: 420px;
+  }
+
+  .salad-bottom {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contact-list {
+    padding-bottom: 0;
+    padding-right: 10em;
+  }
+}
+
+@media (min-width: 800px) {
+  /*
+  .welcome-text {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* min-width: 500px; */
+  /* margin: 0;
+  } */
+
+  .main {
+    padding-bottom: 1em;
+  }
+
+  .style-courses {
+    align-self: flex-start;
+    border: #5c555298 double;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    max-width: 300px;
+    padding: 1em;
+    text-align: center;
+  }
+
+  .wide-menu {
+    display: flex;
+    gap: 2em;
+    text-align: start;
+  }
+
+  .grapes {
+    display: block;
+    max-width: 170px;
+    padding-top: 80px;
+  }
+
+  .allergies {
+    margin-top: 6em;
+  }
+}
